@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
-  get 'navigate/home'
+  get 'home'      => 'navigate#home'
 
-  get 'navigate/about'
+  get 'about'     => 'navigate#about'
 
-  get 'navigate/contact'
+  get 'contact'   => 'navigate#contact'
 
-  get 'navigate/projects'
+  get 'projects'  => 'navigate#projects'
 
   root 'navigate#home'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
