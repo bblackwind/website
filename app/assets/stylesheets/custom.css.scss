@@ -59,14 +59,20 @@ p {
   color: #777;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
+  padding-top: 3px;
   font-weight: bold;
-  font-family: "Times New Roman", cursive;
+  font-family: "Times New Roman";
 }
 
 #logo:hover {
   color: red;
   text-decoration: none;
+}
+
+#myNavbar {
+    font-size: 20px;
+    border-width: 1px;
+    border-radius: 50px;
 }
 
 /* footer */
