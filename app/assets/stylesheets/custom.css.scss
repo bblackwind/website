@@ -4,7 +4,7 @@
 /* universal */
 
 body {
-  padding-top: 10px;
+  background: black;
 }
 
 section {
@@ -15,32 +15,38 @@ textarea {
   resize: vertical;
 }
 
-.roundbox {
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    border: #777;
+.headerbox {
     padding: 5%;
-    background-color: white;
-    margin-top: 1%;
+    background: #293f50;
+    min-height: 540px;
+    margin: 0px 0 0 0;
 
     h1 {
-    font-size: 4em;
-    font-family: helvetica;
-    color: #555;
+    font-size: 5em;
+    line-height: 1.5;
+    font-family: "Lato";
+    color: white;
+    font-weight: 300;
     }
 
     h2 {
-    font-family: helvetica;
-    color: #555;
+    font-family: "Lato";
+    color: #669999;
+    font-weight: 300;
+    font-size: 2em;
+    text-align: left;
+    }
+
+    p {
+    text-align: left;
+    font-size: 1.5em;
+    color: #669999;
+    font-family: "Lato";
     }
 }
 
 .center {
   text-align: center;
-}
-
-.center h1 {
-  margin-bottom: 10px;
 }
 
 /* typography */
@@ -51,17 +57,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-family: helvetica;
+  text-align: left;
+  font-family: "Lato";
 }
 
 h2 {
-  font-size: 2em;
-  letter-spacing: -1px;
+  font-size: 1.5em;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   font-weight: normal;
 }
 
@@ -74,41 +77,46 @@ p {
 
 #logo {
   float: left;
-  margin-right: 10px;
+  margin-left: 3px;
+  margin-top: 3px;
   font-size: 1.7em;
-  color: #777;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 3px;
-  padding-left: 20px;
   font-weight: bold;
   font-family: "helvetica";
+  border: 1px solid white;
+  border-radius: 1000px;
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 #logo:hover {
-  color: red;
+  color: #2D2D2D;
+  background: white;
+  border: 1px solid white;
   text-decoration: none;
 }
 
 #myNavbar {
     font-size: 20px;
-    border-width: 1px;
-    border-radius: 50px;
-    background: white;
-    border-color: #777;
+    margin: 0;
+    border: 1px solid #2D2D2D;
+    background: #2D2D2D;
+    border-radius: 0px !important;
 }
 
 /* footer */
 
 footer {
-  margin-top: 45px;
+  margin-top: 15px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  border-top: 3px solid #eaeaea;
   color: #777;
 }
 
 footer a {
-  color: #555;
+  color: white;
 }
 
 footer a:hover {
@@ -117,6 +125,7 @@ footer a:hover {
 
 footer small {
   float: left;
+  color: white;
 }
 
 footer ul {
@@ -127,4 +136,34 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+.navbar-header {
+  padding: 3px 30px 3px 30px;
+}
+
+/* About */
+
+#about-lists {
+  h1 {
+  color: white;
+  font-size: 1em;
+  text-align: left;
+  font: inherit;
+  }
+  h2 {
+  color: white;
+  font-size: 1em;
+  text-align: left;
+  }
+}
+
+.container-fluid {
+  background: #2D2D2D;
+  margin: 0 !important;
+  height: auto;
+}
+
+.fill-background {
+  background: #2D2D2D;
 }
