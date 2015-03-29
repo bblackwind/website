@@ -120,7 +120,8 @@ footer a {
 }
 
 footer a:hover {
-  color: #222;
+  color: #96B696;
+  text-decoration: none;
 }
 
 footer small {
@@ -159,11 +160,7 @@ footer ul li {
 }
 
 .container-fluid {
-  background: #2D2D2D;
+  background: #2D2D2D !important;
   margin: 0 !important;
   height: auto;
-}
-
-.fill-background {
-  background: #2D2D2D;
 }
