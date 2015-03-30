@@ -7,10 +7,12 @@ html, body {
   background: #2D2D2D;
   margin: 0;
   padding: 0;
+  height: 100%;
 
 #wrapper {
   min-height:100%;
-  position:relative;
+  position: relative;
+  background: #293f50;
 }
 
 #header {
@@ -40,7 +42,7 @@ textarea {
 .headerbox {
     padding: 5%;
     background: #293f50;
-    min-height: 600px;
+
     margin: 0px 0 0 0;
 
     h1 {
@@ -71,24 +73,7 @@ textarea {
   text-align: center;
 }
 
-/* typography */
 
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
-}
-
-h1 {
-  font-size: 3em;
-  text-align: left;
-  font-family: "Lato";
-}
-
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 30px;
-  text-align: left;
-  font-weight: normal;
-}
 
 /* header */
 
