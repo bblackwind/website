@@ -3,8 +3,10 @@
 
 /* universal */
 
-body {
-  background: black;
+html, body {
+  background: #2D2D2D;
+  margin: 0;
+  padding: 0;
 }
 
 section {
@@ -18,7 +20,7 @@ textarea {
 .headerbox {
     padding: 5%;
     background: #293f50;
-    min-height: 540px;
+    min-height: 550px;
     margin: 0px 0 0 0;
 
     h1 {
