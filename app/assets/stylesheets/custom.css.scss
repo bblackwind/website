@@ -7,6 +7,26 @@ html, body {
   background: #2D2D2D;
   margin: 0;
   padding: 0;
+
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+
+#header {
+}
+
+#content {
+  padding-bottom: 10px;
+}
+
+#footer {
+  width:100%;
+  position:absolute;
+  bottom: 0;
+  background:#2D2D2D;
+}
+
 }
 
 section {
@@ -20,7 +40,7 @@ textarea {
 .headerbox {
     padding: 5%;
     background: #293f50;
-    min-height: 550px;
+    min-height: 600px;
     margin: 0px 0 0 0;
 
     h1 {
@@ -106,9 +126,7 @@ h2 {
 /* footer */
 
 footer {
-  margin-top: 15px;
   padding-top: 5px;
-  border-top: 3px solid #eaeaea;
   color: #777;
 }
 
