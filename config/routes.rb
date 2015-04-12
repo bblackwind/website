@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :posts
+  
   get 'home'      => 'navigate#home'
 
   get 'about'     => 'navigate#about'
