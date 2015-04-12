@@ -4,12 +4,16 @@
  
   <% @posts.each do |post| %>
     <tr>
-      <h1>
+      <h3 id="post_title">
       <td><%= post.title %></td>
-      </h1>
-      <br>
+      </h3>
       <h2>
+      Posted <%= post.created_at.strftime('%m/%d/%Y') %>
+      <br>
       <td><%= post.content %></td>
       </h2>
     </tr>
   <% end %>
+
+<h2>
+<%= link_to 'New Post', new_post_path %>

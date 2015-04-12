@@ -26,7 +26,7 @@ before_filter :authenticate, :except => [ :index, :show ]
 
 			def authenticate
 		    	authenticate_or_request_with_http_basic do |name, password|
-		      	name == "admin" && password == "secret"
+		      	name == "hungvt4" && password == "ruby"
 		    	end
 		  	end
 end
